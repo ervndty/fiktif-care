@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiktif Care: Solusi Kesehatan Modern</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar" aria-label="Main navigation">
+                <a href="#" class="logo" aria-label="Fiktif Care Logo">Fiktif Care</a>
+                <ul class="nav-links">
+                    <li><a href="#solusi">Solusi</a></li>
+                    <li><a href="#kenapa-kami">Kenapa Kami?</a></li>
+                    <li><a href="#daftar">Daftar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section section-scroll" aria-label="Penawaran Diskon Konsultasi">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Malas Mengantri Lama?</h1>
+                    <p class="subtitle">Jangan biarkan antrian panjang memperburuk kesehatan Anda. Dapatkan konsultasi medis instan!</p>
+                    <button id="btnDaftarHero" class="btn btn-primary" aria-label="Daftar Sekarang dan Dapatkan Diskon 50%">DAFTAR SEKARANG</button>
+                    <p class="discount-info">Diskon 50% untuk konsultasi pertama</p>
+                </div>
+                <div class="hero-image">
+                    <img src="/dokter.jpg" alt="Ilustrasi Dokter Online Melayani Pasien" />
+                </div>
+            </div>
+        </section>
+
+        <section id="solusi" class="features-section section-scroll" aria-label="Solusi Kesehatan Modern">
+            <div class="container">
+                <h2 class="section-title">Solusi Kesehatan Modern di Genggaman Anda</h2>
+                <div class="features-grid" role="list">
+                    <article class="feature-item" role="listitem" tabindex="0" aria-describedby="desc-konsultasi">
+                        <svg class="feature-icon" viewBox="0 0 64 64" aria-hidden="true">
+                            <path d="M32 4L20 14v36h24V14L32 4z" stroke-linejoin="round" />
+                            <path d="M32 22v18M24 34h16" stroke-linejoin="round" />
+                        </svg>
+                        <h3 class="feature-title" id="desc-konsultasi">Konsultasi langsung dari rumah</h3>
+                        <p class="feature-description">Konsultasi cepat tanpa antri, langsung dari kenyamanan rumah Anda.</p>
+                    </article>
+                    <article class="feature-item" role="listitem" tabindex="0" aria-describedby="desc-cepat">
+                        <svg class="feature-icon" viewBox="0 0 64 64" aria-hidden="true">
+                            <path d="M20 36h24" stroke-linejoin="round" />
+                            <path d="M32 12v40" stroke-linejoin="round" />
+                            <circle cx="32" cy="36" r="6" />
+                        </svg>
+                        <h3 class="feature-title" id="desc-cepat">Proses cepat tanpa antrian</h3>
+                        <p class="feature-description">Nikmati layanan yang efisien tanpa perlu menunggu lama.</p>
+                    </article>
+                    <article class="feature-item" role="listitem" tabindex="0" aria-describedby="desc-aman">
+                        <svg class="feature-icon" viewBox="0 0 64 64" aria-hidden="true">
+                            <path d="M12 32l12 12 28-28" stroke-linejoin="round" />
+                        </svg>
+                        <h3 class="feature-title" id="desc-aman">Aman dan terpercaya</h3>
+                        <p class="feature-description">Privasi dan keamanan data Anda adalah prioritas kami.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="kenapa-kami" class="why-us-section section-scroll" aria-label="Alasan Memilih Fiktif Care">
+            <div class="container">
+                <h2 class="section-title">Kenapa Pilih Fiktif Care?</h2>
+                <ul class="reason-list">
+                    <li><span class="check-icon" aria-hidden="true">✓</span> **Tanpa Antri:** Hemat waktu, langsung akses layanan.</li>
+                    <li><span class="check-icon" aria-hidden="true">✓</span> **Diskon Konsultasi Pertama 50%:** Penawaran spesial untuk Anda.</li>
+                    <li><span class="check-icon" aria-hidden="true">✓</span> **Mudah Digunakan:** Aplikasi simpel dan user-friendly.</li>
+                    <li><span class="check-icon" aria-hidden="true">✓</span> **Dukungan 24/7:** Tim kami siap membantu Anda kapan saja.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="daftar" class="cta-section section-scroll" aria-label="Ajakan Daftar">
+            <div class="container">
+                <p class="cta-text">Saatnya Beralih ke Cara Baru Menjaga Kesehatan. Daftar sekarang dan rasakan sendiri kemudahan dari Fiktif Care.</p>
+                <button id="btnDaftarCTA" class="btn btn-secondary" aria-label="Daftar Sekarang untuk Rasakan Kemudahan Fiktif Care">DAFTAR SEKARANG</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Fiktif Care. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
